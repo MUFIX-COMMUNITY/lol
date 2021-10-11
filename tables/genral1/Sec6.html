@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="backsvg.css">
+    <title>Document</title>
+    <style>
+        html{
+            height: 100%;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        body{
+          
+          background-image: url("../../image/table2021.jpg");
+      
+
+      background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Cairo', sans-serif;
+            height: 100%;
+        }
+      th,
+      td {
+          font-weight: 700;
+        padding: 30px;
+        text-align: center;
+      }
+      table {
+          height: 100%;
+          width: 100%;
+          background-color: transparent;
+        border-collapse: collapse;
+      }
+      .head th{
+          background-color: #9d0a0e;
+          color: white;
+      }
+     
+      @media screen and (max-width: 767px){
+
+           th,td {
+        padding: 5px !important; 
+        font-size: 10px;
+        text-align: center;
+      }
+      body{
+          font-size: 5px;
+      }
+      div
+      {
+          padding: 2px;
+          overflow: scroll;
+      }
+      
+      }
+    </style>
+  </head>
+  <body>    
+  <div  data-aos="fade-up" data-aos-duration="1000">
+    <table border="1">
+        <!--days-->
+              <tr class="head">
+                <th>سكشن 6</th>
+                <th>السبت</th>
+                <th>الاحد</th>
+                <th>الاثنين</th>
+                <th>الثلاثاء</th>
+                <th>الاربع</th>
+                <th>الخميس</th>
+              </tr>
+              <!-- 9 am time -->
+              <tr>
+                <th style="background-color: #9d0a0e; color: white;">9</th>
+               <!-- السبت -->  <td>محاضرة تقاريرعلميه مدرج 5</td>
+                <!-- الاحد -->  <td>محاضرة مقدمة في الحاسبات مدرج 5</td>
+                <!-- الاثنين-->  <td>- - -</td>
+                <!--الثلاثاء-->  <td>- - -</td>
+                <!--الاربع-->   <td>محاضرة تراكيب محدده مدرج 5</td>
+                <!--الخميس-->  <td>- - -</td>
+              </tr>
+              <!--11 am time-->
+              <tr>
+                <th style="background-color: #9d0a0e; color: white;">11</th>
+                <!-- السبت --> <td>- - -</td>
+               <!-- الاحد -->   <td>محاضرة اخلاقيات المهنه مدرج 5</td>
+                <!-- الاثنين-->  <td>محاضرة رياضيات-0 مدرج 4</td>
+               <!--الثلاثاء-->  <td>مقدمة في الحاسبات سكشن عملي معمل 404</td>
+               <!--الاربع-->   <td>- - -</td>
+                <!--الخميس-->   <td>- - -</td>
+              </tr>
+              <!--1 pm time-->
+              <tr>
+                <th style="background-color: #9d0a0e; color: white;">1</th>
+                <!-- السبت -->  <td>محاضرة اشباه موصلات مدرج 5</td>
+                <!-- الاحد -->  <td>محاضرة رياضيات-١ مدرج 5</td>
+                 <!-- الاثنين-->  <td>- - -</td>
+              <!--الثلاثاء-->   <td>سكشن عملي اشباه موصلات معمل 402</td>
+                <!--الاربع-->  <td>- - -</td>
+               <!--الخميس--> <td>- - -</td>
+              </tr>
+            </table>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="backsvg.css">
+    <title>Document</title>
+    <style>
+        html{
+            height: 100%;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        body{
+          
+            background-image: url("/image/table2021.jpg");
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Cairo', sans-serif;
+            height: 100%;
+        }
+      th,
+      td {
+          font-weight: 700;
+        padding: 30px;
+        text-align: center;
+      }
+      table {
+          height: 100%;
+          width: 100%;
+          background-color: transparent;
+        border-collapse: collapse;
+      }
+      .head th{
+          background-color: #9d0a0e;
+          color: white;
+      }
+     
+      @media screen and (max-width: 767px){
+
+           th,td {
+        padding: 5px !important; 
+        font-size: 10px;
+        text-align: center;
+      }
+      body{
+          font-size: 5px;
+      }
+      div
+      {
+          padding: 2px;
+          overflow: scroll;
+      }
+      
+      }
+    </style>
+  </head>
+  <body>    
+  <div>
+    <table border="1">
+        <!--days-->
+              <tr class="head">
+                <th>سكشن 1</th>
+                <th>السبت</th>
+                <th>الاحد</th>
+                <th>الاثنين</th>
+                <th>الثلاثاء</th>
+                <th>الاربع</th>
+                <th>الخميس</th>
+              </tr>
+              <!-- 9 am time -->
+              <tr>
+                <th style="background-color: #9d0a0e; color: white;">9</th>
+               <!-- السبت -->  <td>الحوسبة السحابية محاضرة, مشترك بين الأقسام مدرج 4</td>
+                <!-- الاحد -->  <td>- - -</td>
+                <!-- الاثنين-->  <td>هندسة البرمجيات – 1 محاضرة, مشترك بين الأقسام مدرج 5</td>
+                <!--الثلاثاء-->  <td>تحليل وتصميم نظم -2 محاضرة مدرج 4</td>
+                <!--الاربع-->   <td>- - -</td>
+                <!--الخميس-->  <td>- - -</td>
+              </tr>
+              <tr>
+                <th style="background-color: #9d0a0e; color: white;">11</th>
+                <!-- السبت --> <td>نظم برمجة حاسبات -3 سكشن عملي معمل 404</td>
+               <!-- الاحد -->   <td>بنية الشركات محاضرة مدرج 4</td>
+                <!-- الاثنين--> <td>نظم قواعد البيانات-1 سكشن عملي معمل 407</td>
+               <!--الثلاثاء-->  <td>نظم قواعد البيانات-1 محاضرة, مشترك بين الأقسام مدرج 3</td>
+               <!--الاربع-->   <td>برمجة حاسبات -3 محاضرة, مشترك بين الأقسام مدرج 5</td>
+                <!--الخميس-->   <td>- - -</td>
+              </tr>
+              <tr>
+                <th style="background-color: #9d0a0e; color: white;">1</th>
+                <!-- السبت -->  <td>- - -</td>
+                <!-- الاحد -->  <td>مجموعة 1-نظم الحوسبة السحابية مجموعة نظري مدرج 4</td>
+                 <!-- الاثنين-->  <td>مجموعة 1-نظم هندسة البرمجيات – 1 مجموعة نظري مدرج 2</td>
+              <!--الثلاثاء-->   <td>مجموعة 1-نظم بنية الشركات مجموعة نظري مدرج 3</td>
+                <!--الاربع-->  <td>مجموعة 1-نظم تحليل وتصميم نظم -2 مجموعة نظرى المدرج الأرضي</td>
+               <!--الخميس--> <td>- - -</td>
+              </tr>
+            </table>
+  </div>
+  </body>
+</html>
